@@ -11,7 +11,7 @@ describe('Test Case 1', () => {
             .should('contain', mainPage.title);
 
         // Click on "Join now" button
-        cy.get(createAccountPage.joinBtnElem)
+        cy.get(mainPage.joinBtnElem)
             .should('be.visible')
             .click()
         cy.url().should('include', createAccountPage.createAccountPageUrl)

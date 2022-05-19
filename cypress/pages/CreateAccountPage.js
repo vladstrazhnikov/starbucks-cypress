@@ -2,8 +2,6 @@ export class CreateAccountPage {
     createAccountPageUrl = '/account/create'
     title = 'Create a Starbucks Account: Starbucks Coffee Company'
 
-    joinBtnElem = 'div[class = "ml6 flex items-center"] > a[class = "sb-button sb-button--positive sb-button--black"]'
-
     submitBtnElem = '.sb-frap'
 
     firstNameElem = '#firstName'
