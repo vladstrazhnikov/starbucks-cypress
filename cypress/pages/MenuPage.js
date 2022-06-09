@@ -9,6 +9,8 @@ export class MenuPage {
     juiceOptionsButton = '[data-e2e="option-Juice Options"]'
     appleJuiceSelect = '#apple-juice-customization-option'
     peachJuiceBlendSelect = '#peach-juice-blend-customization-option'
+    cartButton = '[data-e2e=open-cart-button]'
+    selectStoreButton = '//*[@class="buttonContainer pt5 "]/button[2]'
 
     chooseFlavor(option) {
         cy.get(this.flavorsButton).click()
