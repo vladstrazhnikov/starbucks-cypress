@@ -5,12 +5,9 @@ Clone the repo
 ```
 git clone https://github.com/vladstrazhnikov/starbucks-cypress
 ```
-### Install necessary dependencies
+### Install dependencies
 ```
-npm install --save-dev cypress
-npm install -D cypress-xpath
-npm install --save-dev mochawesome
-npm install --save-dev mochawesome-report-generator
+npm i
 ```
 ### How to run
 Run in headless mode with reports
