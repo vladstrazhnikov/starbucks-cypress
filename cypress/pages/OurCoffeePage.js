@@ -11,4 +11,5 @@ export class OurCoffeePage {
     wholeBeanCheckbox = '#product-formats-63'
     italianRoastWholeBeanProduct = 'a[href*="/products/italian-roast-whole-bean"]'
     titleContainer = '.title-container'
+    whereToBuyButton = '//*[@class="search-lang-container"]//a[contains(@href, "/store-locator")]'
 }
