@@ -1,1 +1,1 @@
-export const borderColour = "rgb(214, 43, 31) 0px 0px 0px 2px"
+export const borderColour = "rgb(214, 43, 31) 0px 0px 0px 1px"
