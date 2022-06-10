@@ -1,5 +1,11 @@
 {
   "projectId": "ni5szp",
   "viewportHeight": 800,
-  "viewportWidth": 1500
+  "viewportWidth": 1500,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "Starbucks Report"
+  }
 }
