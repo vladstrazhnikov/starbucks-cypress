@@ -8,6 +8,7 @@ git clone https://github.com/vladstrazhnikov/starbucks-cypress
 ### Install necessary dependencies
 ```
 npm install --save-dev cypress
+npm install -D cypress-xpath
 npm install --save-dev mochawesome
 npm install --save-dev mochawesome-report-generator
 ```
